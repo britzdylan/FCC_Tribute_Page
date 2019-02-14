@@ -1,57 +1,38 @@
 body {
   font-family: sans-serif;
-   background: #8e9eab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Noto Serif JP', serif;
   
 }
 
 #main {
-  background: #8e9eab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  text-align: center;
+    text-align: left;
+     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-#img-div {
-  background-color: white;
-  padding: 50px 0 50px 0;
-  margin: 50px 1% 0 1%;
-  border-style: solid;
-  border-color: white;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
-}
+
 
 #tribute-info {
-  background-color: white;
-  text-align : left;
-  max-width: 550px;
-  margin: 50px auto 50px auto;
-  border-style: solid;
-  border-color: white;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.66);
+ 
 }
 
 blockquote {
-  font-style: italic; 
+  font-style: italic;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0;
 }
 
-img {
- display: block;
- max-width: 100%;
- height: auto;
- margin-left: auto;
-  margin-right: auto;
-}
+
 
 #headline {
   margin-top: 50px;
@@ -59,8 +40,108 @@ img {
 
 h1 {
   padding: 20px 0 0 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    letter-spacing: -2px;
 }
 
+h2 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+h4 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
 #extra-info {
   padding: 10px 0 50px 0;
+}
+
+.sec-1-div {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#section-1 {
+    display: flex;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+#image {
+    height: 100px;
+}
+
+#img-div {
+    text-align: center;
+    padding-top: 15%;
+    background: url(Images/steve-jobs-wallpapers-27384-7835034.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#title-text {
+    padding: 30px 30px;
+    
+}
+
+.hr-1 {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    width: 20px;
+    height: 5px;
+    border: none;
+    background-color: #F03D33;
+}
+
+#title {
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#img-caption {
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    letter-spacing: 10px;
+}
+
+#quote-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-color: #343239;
+    
+}
+
+.quote-symbol {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: orangered;
 }
