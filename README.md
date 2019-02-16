@@ -13,6 +13,8 @@ Build a Responsive tribute page using only HTML & CSS technology.
   <li>Apply color scheme and Import custom fonts</li>
   <li>Create @maxwidth:960px media quary for tablets & mobiles</li>
   <li>rearrange all elements to fit & display correclty</li>
+  <li>Using background Images in Div Elements</li>
+  <li>Styling Links with text-properties & transform property</li>
  </ol>
 
 
